@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA Setup Responses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="container">
+
+    <img src="PWA.png" class="logo">
+
+    <h1>PWA Setup Responses</h1>
+    <p>Perth Worldwide Aviation</p>
+
+    <div class="stats">
+        <h2>Total Responses</h2>
+        <span id="totalResponses">0</span>
+    </div>
+
+    <input
+        type="text"
+        id="search"
+        placeholder="Search responses...">
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Version</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+
+        <tbody id="responseTable">
+
+            <tr>
+                <td colspan="4">
+                    No responses yet.
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
